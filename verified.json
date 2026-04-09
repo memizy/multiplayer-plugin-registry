@@ -58,7 +58,7 @@
           },
           {
             "id": "showLeaderboardAfterEvery",
-            "label": "Show leaderboard every N questions (0 = never) test change community",
+            "label": "Show leaderboard every N questions (0 = never) test change verified",
             "type": "number",
             "defaultValue": 0,
             "description": "Display leaderboard after every N questions",
