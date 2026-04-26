@@ -21,14 +21,12 @@
     "capabilities": {
       "actions": ["render"],
       "types": [
-        "flashcard",
         "mcq-single",
         "mcq-multi",
         "true-false",
         "match-pairs",
         "sort-items",
-        "short-answer",
-        "note"
+        "short-answer"
       ],
       "assets": { "image": null, "audio": null, "video": null, "model": null },
       "features": [
