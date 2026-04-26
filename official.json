@@ -7,52 +7,44 @@
     "maxOqseVersion": "1.99",
     "id": "https://memizy.github.io/multiplayer-quiz/",
     "appName": "Multiplayer Quiz",
-    "description": "Simple multiplayer quiz with mcq-single support.",
+    "description": "Multiplayer quiz with broad OQSE question type support.",
     "author": {
       "name": "Memizy Team",
       "role": "Creator",
       "url": "https://memizy.com"
     },
-    "locales": [
-      "en"
-    ],
-    "tags": [
-      "quiz",
-      "multiplayer",
-      "game"
-    ],
+    "locales": ["en"],
+    "tags": ["quiz", "multiplayer", "game"],
     "emoji": "🎮",
     "studyMode": "game",
     "questionDensity": "medium",
     "capabilities": {
-      "actions": [
-        "render"
-      ],
+      "actions": ["render"],
       "types": [
+        "flashcard",
         "mcq-single",
-        "true-false"
+        "mcq-multi",
+        "true-false",
+        "match-pairs",
+        "sort-items",
+        "short-answer",
+        "note"
       ],
-      "assets": {
-        "image": null,
-        "audio": null,
-        "video": null,
-        "model": null
-      },
+      "assets": { "image": null, "audio": null, "video": null, "model": null },
       "features": [
-        "math",
         "markdown",
+        "math",
         "html"
       ]
     },
     "appSpecific": {
       "memizy": {
-        "multiplayer": {
+        "multiplayerSdk": {
           "apiVersion": "0.4",
-          "players": {
-            "min": 2,
-            "max": 60,
-            "recommended": 20
-          },
+          "minimumHostApiVersion": "0.4",
+          "customSyncScreen": false,
+          "hasSettingsScreen": true,
+          "players": { "min": 2, "max": 60, "recommended": 20 },
           "supportsLateJoin": true,
           "supportsReconnect": true,
           "supportsTeams": false,
