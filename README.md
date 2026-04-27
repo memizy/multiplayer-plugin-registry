@@ -18,3 +18,9 @@ This repository stores plugin manifests grouped by trust level to help platform 
 4. Wait for review from maintainers.
 
 If accepted, your plugin will be merged into `community.json`. Verified status can be granted later after additional audit.
+
+### Key Manifest Fields:
+
+* `id`: The unique URL or URN identifier of your plugin. (This is where the Memizy app will fetch the plugin from).
+* `capabilities.types`: The exact OQSE item types your plugin knows how to handle.
+* appSpecific.memizy.registry.isStandaloneFile: A boolean indicating whether the plugin is a standalone file that can be fully downloaded and run offline. If true, the Memizy app allows users to clone and edit the plugin in their local workspace.

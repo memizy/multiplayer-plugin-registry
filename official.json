@@ -48,6 +48,9 @@
           "supportsTeams": false,
           "requiresHostScreen": true,
           "clientOrientation": "portrait"
+        },
+        "registry": {
+          "isStandaloneFile": true
         }
       }
     }
