@@ -28,7 +28,7 @@
         "sort-items",
         "short-answer"
       ],
-      "assets": { "image": null, "audio": null, "video": null, "model": null },
+      "assets": { "image": ["*"], "audio": ["*"], "video": ["*"], "model": null },
       "features": [
         "markdown",
         "math",
